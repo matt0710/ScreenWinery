@@ -1,3 +1,5 @@
+import 'package:screen1/user.dart';
+
 class Winery {
 
   int id;
@@ -6,6 +8,7 @@ class Winery {
   String city;
   String cap;
   String image;
+
   //realisticamente verrà inserito un campo URL cosi da avere per oggi cantina associata la propria immagine
   //ci sarà anche un array users[] che conterrà un'istanza della classe Users necessaria per il login.
   //ci sarà anche un campo che tiene conto delle zone
