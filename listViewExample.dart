@@ -84,7 +84,8 @@ class MyApp extends StatelessWidget{
   Widget build(BuildContext context) {
     return MaterialApp(
         title: 'Cantine',
-        home: MyPage()
+        home: MyPage(),
+        theme: new ThemeData(scaffoldBackgroundColor: const Color(0xFFEFEFEF))
     );
   }
 }
